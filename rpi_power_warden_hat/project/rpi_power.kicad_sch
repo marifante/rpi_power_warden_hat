@@ -1,0 +1,30 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2b4e3453-3843-41f4-b98a-9d651dec5a9c")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "+5V_RPI"
+		(shape output)
+		(at 143.51 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3856945e-ef98-4dc6-ba40-63607d40eccf")
+	)
+	(hierarchical_label "+VBAT"
+		(shape input)
+		(at 143.51 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d97e59ca-c755-442a-b238-34bec4c34d8c")
+	)
+)

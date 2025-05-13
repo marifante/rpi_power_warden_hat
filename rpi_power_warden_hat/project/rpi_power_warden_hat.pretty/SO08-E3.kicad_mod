@@ -1,0 +1,202 @@
+(footprint "SO08-E3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>body 3.9 mm/JEDEC MS-012AA<p>(combined pins variation)")
+	(property "Reference" "REF**"
+		(at -3.77 0.01 -90)
+		(layer "F.SilkS")
+		(uuid "860ef748-68da-4358-88bb-6f55234cb4cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SO08-E3"
+		(at 0.623003 -0.089 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37ac40fe-5fc4-4172-9929-8f415b8961d1")
+		(effects
+			(font
+				(size 0.64072 0.64072)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da78a57e-e921-427d-bbd7-8c4d3ab1bfd1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00c157d9-4e0f-4515-9b35-f209baa3b905")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c08c7778-463a-4900-b29f-35a4a0707e7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.667 3.455)
+		(end -2.667 -1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29393f0f-85a8-4bab-b9ec-7b1eb127e2f1")
+	)
+	(fp_line
+		(start 2.667 -1.27)
+		(end 2.667 1.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50c1d03f-f7f7-43cd-9e8d-5dd415cb6c37")
+	)
+	(fp_line
+		(start -2.667 -1.905)
+		(end 2.667 -1.905)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65db0909-0f9d-424b-b8b1-972e13759081")
+	)
+	(fp_line
+		(start -2.667 1.905)
+		(end -2.667 -1.905)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71e634ac-48a8-44c1-a296-e6b853190a4b")
+	)
+	(fp_line
+		(start 2.667 -1.905)
+		(end 2.667 1.905)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "97681e23-9fbc-423b-85a3-428d3f38a310")
+	)
+	(fp_line
+		(start 2.667 1.905)
+		(end -2.667 1.905)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cb074cb-1e13-4ce4-90ce-8f33a1bccc42")
+	)
+	(pad "1" smd roundrect
+		(at -1.89 2.8 90)
+		(size 1.75 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.15)
+		(uuid "c8013f7b-6d2a-4a50-ac54-4677533c24fa")
+	)
+	(pad "2" smd roundrect
+		(at -0.62 2.8 90)
+		(size 1.75 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.15)
+		(uuid "938e51a4-c2b0-4998-a15b-df1498c1aeef")
+	)
+	(pad "3" smd roundrect
+		(at 0.65 2.8 90)
+		(size 1.75 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.15)
+		(uuid "c8ed22fa-f56a-4987-b50a-28b781213c99")
+	)
+	(pad "4" smd roundrect
+		(at 1.92 2.8 90)
+		(size 1.75 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.15)
+		(uuid "d6392e4d-63a1-4864-9859-cb8e745c49df")
+	)
+	(pad "5" smd roundrect
+		(at 1.92 -2.8 90)
+		(size 1.75 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.15)
+		(uuid "f5eb295a-812b-4efb-98b9-81f576c04022")
+	)
+	(pad "6" smd roundrect
+		(at 0.65 -2.8 90)
+		(size 1.75 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.15)
+		(uuid "fd602e7e-ce4f-4cac-8928-4b535f748edf")
+	)
+	(pad "7" smd roundrect
+		(at -0.62 -2.8 90)
+		(size 1.75 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.15)
+		(uuid "0f3e8dba-de90-4d04-addc-9ef5f4bca5b8")
+	)
+	(pad "8" smd roundrect
+		(at -1.9 -2.8 90)
+		(size 1.75 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.15)
+		(uuid "c72bd2e8-9b3d-444c-a2c4-1d319234ab1d")
+	)
+	(model "${KIPRJMOD}/rpi_power_warden_hat.pretty/FDS4435BZ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
