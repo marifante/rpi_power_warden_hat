@@ -1,4 +1,4 @@
-24528454712029778
+24533696947574042
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98678,3 +98678,24 @@ SOP65P490X110-8N
 0
 8
 8
+rpi_power_warden_hat
+SOT-23-6
+SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+6
+6
+rpi_power_warden_hat
+TENSILITY_54-00003
+
+
+0
+6
+6
+rpi_power_warden_hat
+TENSILITY_54-00164
+
+
+0
+4
+4
