@@ -634,6 +634,12 @@
 		(uuid "006c59a0-1611-4457-a8e0-62a509b42157")
 	)
 	(junction
+		(at 250.19 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15f6d4a6-c2fc-4394-9b50-c2d27534a0bd")
+	)
+	(junction
 		(at 48.26 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -807,6 +813,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 40.64) (xy 252.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "460b10c9-ff99-401a-baf0-4bc73d8f9abf")
+	)
+	(wire
+		(pts
 			(xy 203.2 78.74) (xy 215.9 78.74)
 		)
 		(stroke
@@ -874,6 +890,16 @@
 			(type default)
 		)
 		(uuid "5a6aeb11-c55d-4ec9-aa70-f4994d4272bb")
+	)
+	(wire
+		(pts
+			(xy 250.19 43.18) (xy 250.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae98169-b3c8-44d0-8c48-e1db29824cd1")
 	)
 	(wire
 		(pts
@@ -1037,6 +1063,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 45.72) (xy 250.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1965d69-c997-4c47-bcbb-22a341b91ae3")
+	)
+	(wire
+		(pts
 			(xy 203.2 55.88) (xy 203.2 78.74)
 		)
 		(stroke
@@ -1084,6 +1120,16 @@
 			(type default)
 		)
 		(uuid "bf3de225-8316-43c1-a2ff-a64fe3d6ad9e")
+	)
+	(wire
+		(pts
+			(xy 252.73 43.18) (xy 250.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43d39ba-b563-482b-88e7-46fe14b7ffd7")
 	)
 	(wire
 		(pts
@@ -1157,6 +1203,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 49.53) (xy 250.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8338349-cc3e-4158-95eb-fbdd23dd27aa")
+	)
+	(wire
+		(pts
 			(xy 215.9 55.88) (xy 213.36 55.88)
 		)
 		(stroke
@@ -1164,18 +1220,6 @@
 			(type default)
 		)
 		(uuid "ffea4e91-7af4-4743-92ca-d9099afbf5a1")
-	)
-	(text "TODO: choose output connector for VBAT\n"
-		(exclude_from_sim no)
-		(at 263.906 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "fdde7e03-617b-47a2-b744-b5b919468870")
 	)
 	(label "+VBAT"
 		(at 38.1 63.5 0)
@@ -1262,7 +1306,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55ba8731-bf09-4c57-a55d-8e720d136300")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 260.096 92.202 0)
 			(effects
 				(font
@@ -1349,7 +1393,7 @@
 		(instances
 			(project ""
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1366,7 +1410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b70f70e-23cd-469a-b1a9-f229031cc226")
-		(property "Reference" "#PWR21"
+		(property "Reference" "#PWR2"
 			(at 213.36 107.95 0)
 			(effects
 				(font
@@ -1416,7 +1460,169 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
-					(reference "#PWR21")
+					(reference "#PWR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "rpi_power_warden_hat:54-00164")
+		(at 257.81 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeb31be1-79dd-4fc7-afdf-b3aa3e649cf9")
+		(property "Reference" "J2"
+			(at 262.5697 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "54-00164"
+			(at 262.5697 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rpi_power_warden_hat:TENSILITY_54-00164"
+			(at 254.762 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00164.pdf"
+			(at 254.762 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN JACK R/A SMT 5.5X2.1MM"
+			(at 257.048 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "54-00164"
+			(at 258.826 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "TENSILITY"
+			(at 256.794 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A2"
+			(uuid "9f451cc4-c0e2-41b8-8e60-a4ee829f6fe6")
+		)
+		(pin "B"
+			(uuid "7e1aff7b-7b98-4a9c-b2ba-9d36396f9831")
+		)
+		(pin "C"
+			(uuid "db84a362-fd42-48c2-8f5b-6847be51fffe")
+		)
+		(pin "A1"
+			(uuid "c44a43d6-17bc-4004-beed-4edd5dd84762")
+		)
+		(instances
+			(project "rpi_power_warden_hat"
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c97ca411-9692-4e13-bae1-8cafbdf1ecae")
+		(property "Reference" "#PWR4"
+			(at 250.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86bf3a04-8fc4-4c66-a8e3-e6b33abca1bd")
+		)
+		(instances
+			(project "rpi_power_warden_hat"
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -1432,7 +1638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c996309d-2eed-4382-b16a-9f7202c7ecf2")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 19.3703 63.5 0)
 			(effects
 				(font
@@ -1511,7 +1717,7 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1528,7 +1734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa2aadbc-57ab-4386-8daf-684704d2b80b")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR3"
 			(at 246.38 119.38 0)
 			(effects
 				(font
@@ -1578,7 +1784,7 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
-					(reference "#PWR2")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
