@@ -580,20 +580,28 @@
       "Root"
     ],
     [
-      "52241f92-cbdb-484e-bc49-950aa69fc821",
-      "power_sensor"
+      "280f8587-5166-4f13-bc2f-0b642f6ac80b",
+      "current_sensor_VBAT"
     ],
     [
-      "5b5e45a1-b5e5-41dc-86e3-95314fe825a7",
+      "52241f92-cbdb-484e-bc49-950aa69fc821",
+      "current_sensor_5V"
+    ],
+    [
+      "014d6471-91bd-4d51-9996-105480561d0c",
       "rpi"
     ],
     [
       "5bbc6f2d-46db-4213-8835-1ada71ba8330",
-      "switched_power"
+      "switched_5V"
     ],
     [
-      "be1ce154-9761-4b51-a119-772714ae8ad1",
+      "cc58a92a-1392-4aa4-91cc-7a70ded8904f",
       "rpi_power"
+    ],
+    [
+      "13ff0610-b75a-4e11-95ef-2cab68db73f1",
+      "load_switch"
     ]
   ],
   "text_variables": {}
