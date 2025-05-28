@@ -1435,7 +1435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f531beb-72e9-4dba-bc68-5b9f70d6d103")
-		(property "Reference" "TP5"
+		(property "Reference" "TP1"
 			(at 53.34 33.5279 0)
 			(effects
 				(font
@@ -1486,7 +1486,7 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)

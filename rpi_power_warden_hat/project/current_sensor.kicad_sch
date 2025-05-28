@@ -1424,7 +1424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e58c415-99fe-4ee9-98ec-23a1bc81ec57")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 91.44 66.5479 0)
 			(effects
 				(font
@@ -1475,11 +1475,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/280f8587-5166-4f13-bc2f-0b642f6ac80b"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/52241f92-cbdb-484e-bc49-950aa69fc821"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1495,7 +1495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93aa903c-b2c0-49b7-a41c-9432caaf7106")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 168.91 76.7079 0)
 			(effects
 				(font
@@ -1546,11 +1546,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/280f8587-5166-4f13-bc2f-0b642f6ac80b"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/52241f92-cbdb-484e-bc49-950aa69fc821"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
