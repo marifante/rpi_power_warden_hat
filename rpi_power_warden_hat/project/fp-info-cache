@@ -1,4 +1,4 @@
-24533698222093872
+24535446662281771
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98664,6 +98664,13 @@ Bourns SRN8040 SMD inductor
 0
 2
 2
+rpi_power_warden_hat
+RPI_Hat_B+
+
+
+0
+40
+40
 rpi_power_warden_hat
 SOIC-8
 <b>SMALL OUTLINE INTEGRATED CIRCUIT</b><p>body 3.9 mm/JEDEC MS-012AA<p>(combined pins variation)

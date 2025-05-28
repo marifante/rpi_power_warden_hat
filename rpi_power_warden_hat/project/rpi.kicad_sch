@@ -8157,7 +8157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical"
+		(property "Footprint" "rpi_power_warden_hat:RPI_Hat_B+"
 			(at 159.004 124.968 0)
 			(effects
 				(font
