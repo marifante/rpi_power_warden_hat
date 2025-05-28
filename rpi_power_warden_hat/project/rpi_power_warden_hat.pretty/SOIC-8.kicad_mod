@@ -1,4 +1,4 @@
-(footprint "SO08-E3"
+(footprint "SOIC-8"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SO08-E3"
+	(property "Value" "SOIC-8"
 		(at 0.623003 -0.089 0)
 		(layer "F.Fab")
 		(hide yes)
