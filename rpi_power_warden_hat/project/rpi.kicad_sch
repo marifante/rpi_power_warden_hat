@@ -811,6 +811,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -2067,10 +2169,22 @@
 		(uuid "b3f6df21-b776-4282-a76e-90f615660ca6")
 	)
 	(junction
+		(at 154.94 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7bc9e93-58bd-48fb-bfae-9bc55ad41321")
+	)
+	(junction
 		(at 234.95 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df0acd20-e1af-49b4-b80e-02f8f6a0f5a1")
+	)
+	(junction
+		(at 146.05 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e83b49b4-de66-4354-a9e2-1a460230f2ab")
 	)
 	(junction
 		(at 262.89 45.72)
@@ -2203,6 +2317,16 @@
 			(type default)
 		)
 		(uuid "14448ca2-d69f-452b-b7ad-ecd60e0ffaa3")
+	)
+	(wire
+		(pts
+			(xy 146.05 80.01) (xy 157.48 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17f00178-f017-4805-bac2-68314d15e816")
 	)
 	(wire
 		(pts
@@ -2546,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 153.67 87.63)
+			(xy 121.92 87.63) (xy 154.94 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 80.01) (xy 153.67 80.01)
+			(xy 121.92 80.01) (xy 146.05 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2926,6 +3050,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 87.63) (xy 157.48 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5ec766-20ea-4d11-b9e4-0bbbe70ad5bb")
+	)
+	(wire
+		(pts
 			(xy 228.6 62.23) (xy 229.87 62.23)
 		)
 		(stroke
@@ -2946,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 77.47) (xy 153.67 77.47)
+			(xy 121.92 77.47) (xy 144.78 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7125,6 +7259,19 @@
 		)
 		(uuid "36fc26f9-f17e-4bd4-b06c-b9f8803aed4e")
 	)
+	(text "GPIO logic levels"
+		(exclude_from_sim no)
+		(at 16.51 107.442 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "608c0f87-f894-4adc-8a8d-ea043ed84eca")
+	)
 	(text "Extra GPIO headers"
 		(exclude_from_sim no)
 		(at 257.048 81.28 0)
@@ -7137,6 +7284,17 @@
 			(justify left)
 		)
 		(uuid "6433d6bb-da7f-4985-8233-af7b9dd257c0")
+	)
+	(text "VOL [V] = 0.14 V\nVOH [V] = 3 V"
+		(exclude_from_sim no)
+		(at 16.764 111.252 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88d3158e-9eaf-4cba-a608-304993364098")
 	)
 	(text "This memory is suggested in HAT design guides:\nhttps://github.com/raspberrypi/hats/blob/master/designguide.md"
 		(exclude_from_sim no)
@@ -7198,15 +7356,28 @@
 		)
 		(uuid "c70eb69b-4616-43ac-a50c-c2348d649ffa")
 	)
-	(text "Note:\n\nRaspberry PI already includes 1.8 kΩ pull-ups to 3.3V in I2C lines.\nHere we include two optional pull ups, but are not fitted by default."
+	(text "Raspberry PI already includes 1.8 kΩ pull-ups to 3.3V in I2C lines.\nHere we include two optional pull ups, but are not fitted by default."
 		(exclude_from_sim no)
-		(at 130.302 109.474 0)
+		(at 137.16 111.252 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "cd06d18e-c916-4203-9eb8-2c8a1400a1c2")
+	)
+	(text "I2C pull ups"
+		(exclude_from_sim no)
+		(at 103.632 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "eaf88b70-dbd5-4963-a65d-06b0382e4709")
 	)
 	(text "Raspberry Pi Connector"
 		(exclude_from_sim no)
@@ -7242,16 +7413,6 @@
 			(justify right bottom)
 		)
 		(uuid "057a3829-6005-4c4f-bf24-f6b09b47c784")
-	)
-	(label "INA_SCL"
-		(at 138.43 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "05c450e2-3d22-4b7b-9e75-550da2c9a26f")
 	)
 	(label "GPIO12{slash}PWM0"
 		(at 33.02 54.61 0)
@@ -7422,16 +7583,6 @@
 			(justify left bottom)
 		)
 		(uuid "40354fc2-22dc-4a9d-a448-de8cdb824868")
-	)
-	(label "INA_SDA"
-		(at 138.43 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "404596af-e159-410c-b6dd-ceacafe10efb")
 	)
 	(label "GPIO24{slash}SDIO_DAT0"
 		(at 251.46 104.14 0)
@@ -7713,16 +7864,6 @@
 		)
 		(uuid "e5614d00-3dc9-4ec6-b809-96c0cffff1fb")
 	)
-	(label "+3V3"
-		(at 153.67 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e79c830e-1f62-4db5-b6ba-464f8be52d81")
-	)
 	(label "INA_VBAT_ALERT"
 		(at 33.02 72.39 0)
 		(effects
@@ -7805,9 +7946,9 @@
 		)
 		(uuid "9bb40ca1-2a0b-49b2-aa27-af608905d698")
 	)
-	(hierarchical_label "ENABLE_5V_SW"
+	(hierarchical_label "ENA_5V_SW"
 		(shape output)
-		(at 153.67 80.01 0)
+		(at 157.48 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7818,7 +7959,7 @@
 	)
 	(hierarchical_label "INA_5V_ALERT"
 		(shape input)
-		(at 153.67 77.47 0)
+		(at 144.78 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7838,9 +7979,9 @@
 		)
 		(uuid "c3375bca-3ac0-4ca5-8c72-968ee8b34230")
 	)
-	(hierarchical_label "ENABLE_VBAT_SW"
+	(hierarchical_label "ENA_VBAT_SW"
 		(shape output)
-		(at 153.67 87.63 0)
+		(at 157.48 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9665,6 +9806,141 @@
 			(project ""
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/014d6471-91bd-4d51-9996-105480561d0c"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6428e0e-d757-4e0a-b61c-ecb46aa7a46c")
+		(property "Reference" "TP11"
+			(at 156.21 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 157.48 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 160.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f179221-116f-4f6f-ac91-f3a070ba8d2f")
+		)
+		(instances
+			(project "rpi_power_warden_hat"
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/014d6471-91bd-4d51-9996-105480561d0c"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 80.01 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ede04d2a-cff9-4368-bedb-b94d10c99d0a")
+		(property "Reference" "TP12"
+			(at 147.066 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 148.59 82.0421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e23eb03-8a23-4e1e-a741-d4d869f0a334")
+		)
+		(instances
+			(project "rpi_power_warden_hat"
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/014d6471-91bd-4d51-9996-105480561d0c"
+					(reference "TP12")
 					(unit 1)
 				)
 			)

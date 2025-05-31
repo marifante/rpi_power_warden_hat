@@ -2825,6 +2825,17 @@
 		)
 		(uuid "065b05b5-cf92-4cf4-af5b-aa81e3c104d4")
 	)
+	(text "Enable pin logical levels:\nVIH [V] = 1.6\nVIL [V] = 0.6"
+		(exclude_from_sim no)
+		(at 64.77 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36e2f089-f021-4372-98ec-e6f2ab2e7228")
+	)
 	(text "Design notes"
 		(exclude_from_sim no)
 		(at 17.272 154.432 0)
@@ -3996,6 +4007,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 114.3 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2637bff-b139-4ae7-a3ed-6411593ff8d6")
+		(property "Reference" "R19"
+			(at 114.3 87.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 114.554 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 114.3 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0603"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "ERJ-3GEY0R00V"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "Panasonic Electronic Components"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92b3774e-10d9-43db-ba2d-5bd58f0d0bbf")
+		)
+		(pin "2"
+			(uuid "1fa8882f-e53a-44dc-9943-af8e79974b5f")
+		)
+		(instances
+			(project "rpi_power_warden_hat"
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 97.79 93.98 0)
 		(unit 1)
@@ -4439,95 +4539,6 @@
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d30a7239-1c5c-4bfe-9da7-e6823b88b740")
-		(property "Reference" "R8"
-			(at 114.3 87.884 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 114.554 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 114.3 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 10K OHM 1% 1/10W"
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" "ERJ-3EKF1002V"
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "Panasonic Electronic Components"
-			(at 114.3 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91cdd856-03d3-4e4f-b161-4a14213bc60f")
-		)
-		(pin "2"
-			(uuid "c24917a5-b306-486c-88a5-831bc0d8cd60")
-		)
-		(instances
-			(project "rpi_power_warden_hat"
-				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "R8")
-					(unit 1)
-				)
-				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "R12")
 					(unit 1)
 				)
 			)

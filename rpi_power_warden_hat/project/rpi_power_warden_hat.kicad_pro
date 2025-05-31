@@ -605,6 +605,14 @@
     [
       "13ff0610-b75a-4e11-95ef-2cab68db73f1",
       "load_switch"
+    ],
+    [
+      "fdee896d-a6fa-4854-a7d2-28092c85ff44",
+      "and_vbat"
+    ],
+    [
+      "67c50b5c-a842-43c6-be7c-97015e7e2432",
+      "and_5v"
     ]
   ],
   "text_variables": {}

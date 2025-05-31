@@ -1093,7 +1093,7 @@
 	)
 	(rectangle
 		(start 63.5 50.8)
-		(end 203.2 114.3)
+		(end 203.2 127)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1114,9 +1114,33 @@
 		)
 		(uuid "0463b08a-7a96-427f-a852-6cec7c89a192")
 	)
-	(text "This IC has a inner shunt resistor integrated.\n-> IN+ should be connected to the power supply (VCC_SW).\n-> IN- should be connected to the load (VCC_SW_AS, AS = After Shunt)."
+	(text "Alert pin is an open drain output that \nasserts (goes low) when the configured \nevent is detected.\nVOL [V] = 0.4 V"
 		(exclude_from_sim no)
-		(at 103.632 109.728 0)
+		(at 65.278 121.666 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "056c4708-f776-4363-a66a-dd3781d7b8b5")
+	)
+	(text "Alert pin\n"
+		(exclude_from_sim no)
+		(at 65.278 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "07d69310-b2fa-492c-9eac-9b1985b0d3c2")
+	)
+	(text "This IC has a inner shunt resistor integrated.\n-> IN+ should be connected to the power supply.\n-> IN- should be connected to the load.\n"
+		(exclude_from_sim no)
+		(at 149.606 121.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1137,6 +1161,18 @@
 			(justify left)
 		)
 		(uuid "c63291d2-0074-45e9-b628-30cd648a2236")
+	)
+	(text "Output Power Connection"
+		(exclude_from_sim no)
+		(at 161.798 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ca9e2272-d9b3-4c81-a32d-67e5dff5e9e1")
 	)
 	(label "INA_SDA"
 		(at 102.87 77.47 0)
