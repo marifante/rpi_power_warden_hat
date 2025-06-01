@@ -1264,7 +1264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f630a6b-116c-44eb-8925-4649a82f66c9")
-		(property "Reference" "#PWR33"
+		(property "Reference" "#PWR32"
 			(at 96.52 95.25 0)
 			(effects
 				(font
@@ -1314,7 +1314,7 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/13ff0610-b75a-4e11-95ef-2cab68db73f1"
-					(reference "#PWR33")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -1330,7 +1330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30784f4f-84d8-4722-bd10-8503c503264f")
-		(property "Reference" "#PWR35"
+		(property "Reference" "#PWR34"
 			(at 163.83 105.41 0)
 			(effects
 				(font
@@ -1380,7 +1380,7 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/13ff0610-b75a-4e11-95ef-2cab68db73f1"
-					(reference "#PWR35")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -1481,7 +1481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ff21753-3c6f-4f81-a86a-547cf221345b")
-		(property "Reference" "#PWR34"
+		(property "Reference" "#PWR33"
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -1531,7 +1531,7 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/13ff0610-b75a-4e11-95ef-2cab68db73f1"
-					(reference "#PWR34")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -1632,7 +1632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "642e996e-2aea-4f6f-b6f2-e149bf731afe")
-		(property "Reference" "#PWR36"
+		(property "Reference" "#PWR35"
 			(at 181.61 116.84 0)
 			(effects
 				(font
@@ -1682,7 +1682,7 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/13ff0610-b75a-4e11-95ef-2cab68db73f1"
-					(reference "#PWR36")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -1798,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f53c71b-47b3-421d-a1e2-ff1c986ccb67")
-		(property "Reference" "TP10"
+		(property "Reference" "TP12"
 			(at 166.37 76.7079 0)
 			(effects
 				(font
@@ -1849,7 +1849,7 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/13ff0610-b75a-4e11-95ef-2cab68db73f1"
-					(reference "TP10")
+					(reference "TP12")
 					(unit 1)
 				)
 			)

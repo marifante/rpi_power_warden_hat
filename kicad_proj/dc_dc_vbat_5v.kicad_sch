@@ -2997,7 +2997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ef82000-aa27-4323-905e-7ec8e44da74e")
-		(property "Reference" "#PWR22"
+		(property "Reference" "#PWR21"
 			(at 172.72 99.06 0)
 			(effects
 				(font
@@ -3047,11 +3047,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "#PWR22")
+					(reference "#PWR21")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "#PWR29")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -3251,7 +3251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26f4160d-c40c-45b5-ba72-c355716aabe6")
-		(property "Reference" "#PWR21"
+		(property "Reference" "#PWR20"
 			(at 128.27 101.6 0)
 			(effects
 				(font
@@ -3301,11 +3301,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "#PWR21")
+					(reference "#PWR20")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "#PWR28")
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -3321,8 +3321,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f0d6dc6-3161-4fee-bc6e-017a9cd3cf89")
-		(property "Reference" "TP7"
-			(at 181.61 77.9779 0)
+		(property "Reference" "TP9"
+			(at 181.61 79.2479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,6 +3337,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
@@ -3372,11 +3373,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "TP7")
+					(reference "TP9")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "TP9")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -3392,7 +3393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32df6e66-a477-43bd-bf9d-b03ce46223a8")
-		(property "Reference" "#PWR23"
+		(property "Reference" "#PWR22"
 			(at 185.42 99.06 0)
 			(effects
 				(font
@@ -3442,11 +3443,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "#PWR23")
+					(reference "#PWR22")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "#PWR30")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -3643,7 +3644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8216d303-4e5b-4a10-bbb7-8d035246079f")
-		(property "Reference" "#PWR20"
+		(property "Reference" "#PWR19"
 			(at 97.79 104.14 0)
 			(effects
 				(font
@@ -3693,11 +3694,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "#PWR20")
+					(reference "#PWR19")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "#PWR27")
+					(reference "#PWR26")
 					(unit 1)
 				)
 			)
@@ -3805,7 +3806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9de7f974-a8ab-46fd-a734-09441734dcbb")
-		(property "Reference" "#PWR25"
+		(property "Reference" "#PWR24"
 			(at 217.17 120.65 0)
 			(effects
 				(font
@@ -3855,11 +3856,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "#PWR25")
+					(reference "#PWR24")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "#PWR32")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -3875,8 +3876,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac5f0e2-f999-420d-87b6-6b780c543e24")
-		(property "Reference" "TP6"
-			(at 110.49 77.9779 0)
+		(property "Reference" "TP8"
+			(at 110.49 79.2479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,6 +3892,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
@@ -3926,11 +3928,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "TP6")
+					(reference "TP8")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "TP8")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -3946,7 +3948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac1e4ccd-cca5-47fe-a5af-01a10adaf698")
-		(property "Reference" "#PWR19"
+		(property "Reference" "#PWR18"
 			(at 85.09 104.14 0)
 			(effects
 				(font
@@ -3996,11 +3998,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "#PWR19")
+					(reference "#PWR18")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "#PWR26")
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -4015,7 +4017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2637bff-b139-4ae7-a3ed-6411593ff8d6")
-		(property "Reference" "R19"
+		(property "Reference" "R8"
 			(at 114.3 87.884 90)
 			(effects
 				(font
@@ -4085,7 +4087,7 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "R19")
+					(reference "R8")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
@@ -4197,7 +4199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb5c2c64-90a4-41c7-a470-d186e7188913")
-		(property "Reference" "#PWR24"
+		(property "Reference" "#PWR23"
 			(at 196.85 119.38 0)
 			(effects
 				(font
@@ -4247,11 +4249,11 @@
 		(instances
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "#PWR24")
+					(reference "#PWR23")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "#PWR31")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)

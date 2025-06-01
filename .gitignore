@@ -1,4 +1,5 @@
-rpi_power_warden_hat/project/rpi_power_warden_hat-backups/
+kicad_proj/rpi_power_warden_hat-backups/
 *.lck
 \#auto_saved_files#
 fp-info-cache
+doc/*.ods#
