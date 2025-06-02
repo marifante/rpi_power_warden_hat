@@ -1095,6 +1095,24 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "DMMT5401-7-F"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "Diodes Incorporated"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "DMMT5401-7-F_0_1"
 			(circle
 				(center -11.43 0)

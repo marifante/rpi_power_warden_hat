@@ -780,7 +780,7 @@
 			)
 		)
 		(property "Footprint" "rpi_power_warden_hat:SOT-23"
-			(at -5.08 1.27 0)
+			(at 2.032 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,6 +1088,24 @@
 		)
 		(property "Description" "TRANS 2PNP 150V 200MA SOT-26"
 			(at 4.826 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "DMMT5401-7-F"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "Diodes Incorporated"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -8131,7 +8131,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" " ERJ-3EKF3901V"
+		(property "mpn" "ERJ-3EKF3901V"
 			(at 199.39 59.69 0)
 			(effects
 				(font
@@ -8372,7 +8372,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" " ERJ-3EKF3901V"
+		(property "mpn" "ERJ-3EKF3901V"
 			(at 189.23 59.69 0)
 			(effects
 				(font

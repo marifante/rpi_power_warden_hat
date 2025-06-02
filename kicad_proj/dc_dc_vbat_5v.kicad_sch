@@ -1122,6 +1122,24 @@
 					(hide yes)
 				)
 			)
+			(property "mpn" "DMMT5401-7-F"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manufacturer" "Diodes Incorporated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "DMMT5401-7-F_0_1"
 				(circle
 					(center -11.43 0)
@@ -3915,6 +3933,24 @@
 				(hide yes)
 			)
 		)
+		(property "mpn" "DMMT5401-7-F"
+			(at 215.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "Diodes Incorporated"
+			(at 215.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "3c4faeab-0129-4830-9f07-05aad06b1da7")
 		)
@@ -4713,7 +4749,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" " ERJ-3EKF5600V"
+		(property "mpn" "ERJ-3EKF5600V"
 			(at 261.62 92.71 0)
 			(effects
 				(font
