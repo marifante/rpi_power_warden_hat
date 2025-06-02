@@ -1751,12 +1751,6 @@
 		(uuid "b85e43a2-e8ad-4153-a97d-42ad4ed41d2c")
 	)
 	(junction
-		(at 69.85 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c20ad442-1a4a-4c70-8c53-9fc142789a00")
-	)
-	(junction
 		(at 228.6 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1771,16 +1765,6 @@
 			(type default)
 		)
 		(uuid "02821d96-2c3f-4e41-8bd7-1120adc9df8f")
-	)
-	(wire
-		(pts
-			(xy 68.58 90.17) (xy 69.85 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a172de1-d1b8-4d82-b3f0-2bd2c69b7531")
 	)
 	(wire
 		(pts
@@ -1844,6 +1828,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 90.17) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29502692-84f3-467f-a231-e3998ae93b1f")
+	)
+	(wire
+		(pts
 			(xy 203.2 109.22) (xy 203.2 113.03)
 		)
 		(stroke
@@ -1881,6 +1875,16 @@
 			(type default)
 		)
 		(uuid "3788b49f-6c69-4295-98e0-f51ad6e36de0")
+	)
+	(wire
+		(pts
+			(xy 67.31 90.17) (xy 68.58 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e78047-f2f6-44f0-8c71-3920669e3c35")
 	)
 	(wire
 		(pts
@@ -2044,16 +2048,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 90.17) (xy 72.39 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb2973c-e1a1-4abb-9ed6-72dbc55270a3")
-	)
-	(wire
-		(pts
 			(xy 228.6 85.09) (xy 241.3 85.09)
 		)
 		(stroke
@@ -2181,16 +2175,6 @@
 			(type default)
 		)
 		(uuid "e6b08bda-2baf-4999-b42a-30132f49fc17")
-	)
-	(wire
-		(pts
-			(xy 69.85 82.55) (xy 69.85 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecbc270a-c900-4855-bb4d-4680c3de2f24")
 	)
 	(wire
 		(pts
@@ -3776,7 +3760,7 @@
 	)
 	(hierarchical_label "ENA"
 		(shape input)
-		(at 68.58 90.17 180)
+		(at 67.31 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3887,7 +3871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d3f921e-2a76-4533-abd7-799dcd47cf89")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 232.41 99.0599 0)
 			(effects
 				(font
@@ -5253,77 +5237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 69.85 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "aac5f0e2-f999-420d-87b6-6b780c543e24")
-		(property "Reference" "TP8"
-			(at 68.072 76.962 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 72.39 80.5179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 69.85 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88851b9f-4297-453d-a6a7-4cfd14221543")
-		)
-		(instances
-			(project "rpi_power_warden_hat"
-				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330"
-					(reference "TP8")
-					(unit 1)
-				)
-				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/cc58a92a-1392-4aa4-91cc-7a70ded8904f"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 46.99 97.79 0)
 		(unit 1)
@@ -5395,7 +5308,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 90.17 90)
+		(at 72.39 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5403,7 +5316,7 @@
 		(dnp no)
 		(uuid "b2637bff-b139-4ae7-a3ed-6411593ff8d6")
 		(property "Reference" "R8"
-			(at 76.2 87.884 90)
+			(at 72.39 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5324,7 @@
 			)
 		)
 		(property "Value" "0 Ω"
-			(at 76.454 92.71 90)
+			(at 72.644 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5419,7 +5332,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 76.2 91.948 90)
+			(at 72.39 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5428,7 +5341,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 90.17 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +5350,7 @@
 			)
 		)
 		(property "Description" "RES SMD 0 OHM JUMPER 1/10W 0603"
-			(at 76.2 90.17 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +5359,7 @@
 			)
 		)
 		(property "mpn" "ERJ-3GEY0R00V"
-			(at 76.2 90.17 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5455,7 +5368,7 @@
 			)
 		)
 		(property "manufacturer" "Panasonic Electronic Components"
-			(at 76.2 90.17 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "rpi_power_warden_hat:L_8040_8x8x4mm"
+		(property "Footprint" "rpi_power_warden_hat:L_6045_6x6x4mm"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -5974,7 +5887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "HPC 8040NV-4R7M"
+		(property "Description" "FIXED IND 4.7UH 4A 0.026OHM SMD"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -5992,7 +5905,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "HPC 8040NV-4R7M"
+		(property "mpn" "HPC 6045NV-4R7M"
 			(at 121.92 86.614 90)
 			(effects
 				(font
