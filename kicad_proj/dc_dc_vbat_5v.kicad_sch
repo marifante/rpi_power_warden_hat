@@ -3316,13 +3316,12 @@
 		(at 179.07 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f0d6dc6-3161-4fee-bc6e-017a9cd3cf89")
 		(property "Reference" "TP9"
-			(at 181.61 79.2479 0)
+			(at 177.292 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,13 +3870,12 @@
 		(at 107.95 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aac5f0e2-f999-420d-87b6-6b780c543e24")
 		(property "Reference" "TP8"
-			(at 110.49 79.2479 0)
+			(at 106.172 76.962 0)
 			(effects
 				(font
 					(size 1.27 1.27)

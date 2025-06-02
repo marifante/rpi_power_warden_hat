@@ -364,376 +364,6 @@
 				)
 			)
 		)
-		(symbol "Sensor:INA260"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "INA260"
-				(at 2.54 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina260.pdf"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Current/power/voltage monitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "INA260_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "INA260_1_1"
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 2.54 -7.62 90)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54) hide
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 2.54) hide
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2.54) hide
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 2.54) hide
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "ALERT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -830,6 +460,394 @@
 				)
 			)
 		)
+		(symbol "rpi_power_warden_hat:INA260"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA260"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "rpi_power_warden_hat:TSSOP-16_4.4x5mm_P0.65mm"
+				(at -2.54 24.384 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina260.pdf"
+				(at -2.286 32.004 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC CURRENT MONITOR 0.02% 16TSSOP"
+				(at -2.286 34.544 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mpn" "INA260AIPWR"
+				(at 0.508 22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manufacturer" "Texas Instruments"
+				(at 0.254 21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Current/power/voltage monitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSSOP*4.4x5mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INA260_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "INA260_1_1"
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 2.54 -10.16 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54) hide
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54) hide
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54) hide
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54) hide
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 124.46 72.39)
@@ -838,22 +856,22 @@
 		(uuid "15f8b054-48c1-430b-85c8-078c6dadaa10")
 	)
 	(junction
-		(at 88.9 72.39)
+		(at 113.03 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bfc23b2-219c-4339-96e6-fa7a42a17963")
 	)
 	(junction
-		(at 138.43 62.23)
+		(at 156.21 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c2e3351-021f-4731-b55a-974662805da9")
+	)
+	(junction
+		(at 138.43 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80593958-5d25-434d-9bae-8df24e543935")
-	)
-	(junction
-		(at 166.37 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6e12747-4166-4e7f-96a5-b95ea26c008e")
 	)
 	(junction
 		(at 151.13 72.39)
@@ -863,7 +881,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 62.23) (xy 148.59 62.23)
+			(xy 151.13 60.96) (xy 148.59 60.96)
 		)
 		(stroke
 			(width 0)
@@ -873,7 +891,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 81.28) (xy 166.37 82.55)
+			(xy 156.21 81.28) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
@@ -893,7 +911,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 166.37 82.55)
+			(xy 156.21 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b37b7b6-59d7-4789-8129-c161e41bc5a9")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
@@ -923,17 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 82.55) (xy 170.18 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "481895ec-391d-4837-96cf-ed693658d0c7")
-	)
-	(wire
-		(pts
-			(xy 85.09 77.47) (xy 128.27 77.47)
+			(xy 109.22 77.47) (xy 128.27 77.47)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +961,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 67.31) (xy 138.43 62.23)
+			(xy 138.43 60.96) (xy 138.43 67.31)
 		)
 		(stroke
 			(width 0)
@@ -983,7 +1001,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 80.01) (xy 85.09 80.01)
+			(xy 128.27 80.01) (xy 109.22 80.01)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +1011,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 128.27 74.93)
+			(xy 109.22 74.93) (xy 128.27 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 62.23) (xy 140.97 62.23)
+			(xy 138.43 60.96) (xy 140.97 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1023,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 72.39) (xy 124.46 72.39)
+			(xy 113.03 72.39) (xy 124.46 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1061,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 170.18 72.39)
+			(xy 151.13 72.39) (xy 158.75 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 62.23) (xy 138.43 62.23)
+			(xy 132.08 60.96) (xy 138.43 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1081,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 71.12) (xy 88.9 72.39)
+			(xy 113.03 71.12) (xy 113.03 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1091,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 72.39) (xy 88.9 72.39)
+			(xy 109.22 72.39) (xy 113.03 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1174,18 +1192,8 @@
 		)
 		(uuid "ca9e2272-d9b3-4c81-a32d-67e5dff5e9e1")
 	)
-	(label "INA_SDA"
-		(at 102.87 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d881664-68aa-4c8a-8eca-e9117e4027de")
-	)
 	(label "+3V3"
-		(at 132.08 62.23 0)
+		(at 132.08 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1204,19 +1212,9 @@
 		)
 		(uuid "bf3dce8d-bc1f-46be-894b-6b18b2fde495")
 	)
-	(label "INA_SCL"
-		(at 102.87 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f18964aa-42c3-4008-a027-42b4808d67a1")
-	)
 	(hierarchical_label "+VCC_OUT"
 		(shape output)
-		(at 170.18 82.55 0)
+		(at 158.75 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1227,7 +1225,7 @@
 	)
 	(hierarchical_label "INA_SCL"
 		(shape bidirectional)
-		(at 85.09 74.93 180)
+		(at 109.22 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1238,7 +1236,7 @@
 	)
 	(hierarchical_label "+VCC_IN"
 		(shape input)
-		(at 170.18 72.39 0)
+		(at 158.75 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1249,7 +1247,7 @@
 	)
 	(hierarchical_label "INA_VCC_ALERT"
 		(shape output)
-		(at 85.09 72.39 180)
+		(at 109.22 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1271,7 +1269,7 @@
 	)
 	(hierarchical_label "ADDRESS"
 		(shape passive)
-		(at 85.09 80.01 180)
+		(at 109.22 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1282,7 +1280,7 @@
 	)
 	(hierarchical_label "INA_SDA"
 		(shape bidirectional)
-		(at 85.09 77.47 180)
+		(at 109.22 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1382,7 +1380,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 62.23 0)
+		(at 151.13 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1391,7 +1389,7 @@
 		(fields_autoplaced yes)
 		(uuid "831d3f2e-5188-45f0-a3de-131d6dcab735")
 		(property "Reference" "#PWR7"
-			(at 151.13 68.58 0)
+			(at 151.13 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1398,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 67.31 0)
+			(at 151.13 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 62.23 0)
+			(at 151.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 62.23 0)
+			(at 151.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 62.23 0)
+			(at 151.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1452,16 +1450,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 88.9 71.12 0)
+		(at 113.03 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e58c415-99fe-4ee9-98ec-23a1bc81ec57")
 		(property "Reference" "TP2"
-			(at 91.44 66.5479 0)
+			(at 111.252 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1470,16 +1467,17 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 91.44 69.0879 0)
+			(at 115.57 69.0879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 93.98 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 71.12 0)
+			(at 118.11 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +1495,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 88.9 71.12 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,16 +1521,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 166.37 81.28 0)
+		(at 156.21 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "93aa903c-b2c0-49b7-a41c-9432caaf7106")
 		(property "Reference" "TP3"
-			(at 168.91 76.7079 0)
+			(at 154.432 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1541,16 +1538,17 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 168.91 79.2479 0)
+			(at 158.75 79.2479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
-			(at 171.45 81.28 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,7 +1557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 81.28 0)
+			(at 161.29 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1568,7 +1566,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 166.37 81.28 0)
+			(at 156.21 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1664,7 +1662,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 62.23 90)
+		(at 144.78 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1672,7 +1670,7 @@
 		(dnp no)
 		(uuid "c2acd2e8-3cc3-4137-9cf5-8e75f052270e")
 		(property "Reference" "C1"
-			(at 144.78 57.912 90)
+			(at 144.78 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1678,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 144.78 65.532 90)
+			(at 144.78 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1686,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 148.59 61.2648 0)
+			(at 148.59 59.9948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 62.23 0)
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +1704,7 @@
 			)
 		)
 		(property "Description" "CAP 0603 25V 100 NF X5R"
-			(at 144.78 62.23 0)
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1713,7 @@
 			)
 		)
 		(property "mpn" "CC0603KRX5R8BB104"
-			(at 144.78 62.23 0)
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1722,7 @@
 			)
 		)
 		(property "manufacturer" "YAGEO"
-			(at 144.78 62.23 0)
+			(at 144.78 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,18 +1750,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor:INA260")
+		(lib_id "rpi_power_warden_hat:INA260")
 		(at 138.43 77.47 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cdf94abf-0023-47e0-8870-09a1991d9ba4")
+		(uuid "d6f83c37-04af-4ed7-a53c-8bb48fe04942")
 		(property "Reference" "U1"
-			(at 136.2359 64.77 0)
+			(at 130.556 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +1768,7 @@
 			)
 		)
 		(property "Value" "INA260"
-			(at 136.2359 67.31 0)
+			(at 139.7 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,8 +1776,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-16_4.4x5mm_P0.65mm"
-			(at 138.43 92.71 0)
+		(property "Footprint" "rpi_power_warden_hat:TSSOP-16_4.4x5mm_P0.65mm"
+			(at 135.89 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1786,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina260.pdf"
-			(at 138.43 80.01 0)
+			(at 136.144 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,8 +1794,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Current/power/voltage monitor with Integrated 2mΩ Shunt Resistor, 2.7V - 5.5V, I2C, TSSOP-16"
-			(at 138.43 77.47 0)
+		(property "Description" "IC CURRENT MONITOR 0.02% 16TSSOP"
+			(at 136.144 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,62 +1803,80 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "57def880-d26c-4d75-b5bc-d548976b2423")
+		(property "mpn" "INA260AIPWR"
+			(at 138.938 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "a80f3cc7-20f1-4a77-a5c1-6af907c619d5")
+		(property "manufacturer" "Texas Instruments"
+			(at 138.684 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "7aa8d196-3298-42be-b01b-14503d9f728a")
+			(uuid "c8991761-0852-4588-86b0-4245bb3f1ceb")
 		)
 		(pin "8"
-			(uuid "aa33921f-c71f-409a-88f4-b6c8fc40864c")
-		)
-		(pin "4"
-			(uuid "8cd6fa51-5cfb-4213-b248-7c524127b7f2")
-		)
-		(pin "7"
-			(uuid "fd8f67c9-6d2d-4ac7-ba98-da51bc666af9")
-		)
-		(pin "5"
-			(uuid "145f87d2-38e7-45a7-911d-a6c5495f748f")
-		)
-		(pin "9"
-			(uuid "e740ef74-1ec7-4016-b779-d51162f1b4c8")
-		)
-		(pin "11"
-			(uuid "0f4ab0bd-8f6e-4ec0-bf67-37ccbadb18e0")
-		)
-		(pin "14"
-			(uuid "7496fdb7-c9d2-4e1f-9caa-07cb576e78bd")
-		)
-		(pin "15"
-			(uuid "5ec2fdbd-2c0d-4955-af31-d60c28441cb8")
-		)
-		(pin "12"
-			(uuid "e86acb0b-1c5b-4b2f-bc4f-434a40ac188d")
-		)
-		(pin "1"
-			(uuid "f4a1afb6-7107-46db-ae78-4316092cfb1c")
-		)
-		(pin "16"
-			(uuid "b69696d4-aa1d-46c0-9b93-c32ce4578c10")
+			(uuid "46b0f14a-789e-4b30-9206-acc707841129")
 		)
 		(pin "13"
-			(uuid "43a23be2-873d-4a7e-8f5d-0ae4d27df15b")
+			(uuid "03d60ea3-4451-4155-a8fa-4b4a41c4bcee")
+		)
+		(pin "5"
+			(uuid "30e837a9-402c-45f0-bc86-241fa82279ca")
+		)
+		(pin "16"
+			(uuid "300c3894-4a51-42b5-ab02-db8a0044e5b9")
+		)
+		(pin "12"
+			(uuid "d611a76c-83b3-4e51-a472-626acf14ae74")
+		)
+		(pin "2"
+			(uuid "7fa79c9a-3bed-4c02-9f9d-e5688b1688fd")
 		)
 		(pin "10"
-			(uuid "3d2c8382-e614-4dfe-a99f-7707c0d117da")
+			(uuid "9abb17cc-8572-448b-9439-dfaddac3318b")
+		)
+		(pin "4"
+			(uuid "632f17a8-c3eb-4ba6-a02d-a5e496f4ddea")
+		)
+		(pin "11"
+			(uuid "61bc8dbc-1e7a-4185-ad56-5d089e63d9fb")
+		)
+		(pin "3"
+			(uuid "b7368ee4-56cc-4db3-b8fb-1cc2566a00e6")
+		)
+		(pin "7"
+			(uuid "cf8f4eb5-2a42-4c46-a65c-eab103a32009")
+		)
+		(pin "9"
+			(uuid "9db9a293-7287-4a6f-823e-db7c72173aa6")
+		)
+		(pin "15"
+			(uuid "5dbef483-dcef-4e93-b5f9-b1f862d07683")
+		)
+		(pin "1"
+			(uuid "0903d4c7-1a38-4378-a87b-b63a53803a69")
+		)
+		(pin "14"
+			(uuid "c6b18daf-3ed8-4ce6-9dc8-209fc2f82273")
 		)
 		(instances
-			(project "rpi_power_warden_hat"
+			(project ""
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/280f8587-5166-4f13-bc2f-0b642f6ac80b"
 					(reference "U1")
 					(unit 1)
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/52241f92-cbdb-484e-bc49-950aa69fc821"
-					(reference "U2")
+					(reference "U10")
 					(unit 1)
 				)
 			)

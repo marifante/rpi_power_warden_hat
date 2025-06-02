@@ -1793,13 +1793,13 @@
 		(at 163.83 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f53c71b-47b3-421d-a1e2-ff1c986ccb67")
 		(property "Reference" "TP12"
-			(at 166.37 76.7079 0)
+			(at 166.37 77.9779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,6 +1814,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
