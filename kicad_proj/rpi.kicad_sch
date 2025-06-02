@@ -1938,6 +1938,86 @@
 		(color 0 0 0 0)
 		(uuid "fde53962-658c-4771-a837-5b17eaf4317f")
 	)
+	(no_connect
+		(at 33.02 80.01)
+		(uuid "034aaa56-57ec-443e-9830-6e6572b2998b")
+	)
+	(no_connect
+		(at 33.02 100.33)
+		(uuid "04f5eaf9-ae3f-42ee-81a9-8c18c776738a")
+	)
+	(no_connect
+		(at 142.24 92.71)
+		(uuid "17d83701-c9ba-47ee-b525-b3dc221c0931")
+	)
+	(no_connect
+		(at 33.02 87.63)
+		(uuid "2b9839cb-d9a0-41aa-a760-968277514ab4")
+	)
+	(no_connect
+		(at 33.02 92.71)
+		(uuid "38670626-5a06-45da-a2d5-08bdb6904345")
+	)
+	(no_connect
+		(at 33.02 82.55)
+		(uuid "3f8f569c-84c9-4d1b-810c-0e5360bacf8c")
+	)
+	(no_connect
+		(at 142.24 97.79)
+		(uuid "4870774b-861f-4b23-923a-5d9f7b26417f")
+	)
+	(no_connect
+		(at 33.02 77.47)
+		(uuid "4a42c4f6-9f0f-4d77-8cf3-46c1c8428ba4")
+	)
+	(no_connect
+		(at 33.02 74.93)
+		(uuid "4ee0759b-d46b-48e8-b6f8-ad45d9fb5bd6")
+	)
+	(no_connect
+		(at 33.02 62.23)
+		(uuid "5acf8fd0-581e-466f-b222-1e4a4282c380")
+	)
+	(no_connect
+		(at 142.24 90.17)
+		(uuid "6a032952-e66c-4c91-b6cd-0dbc9a56679a")
+	)
+	(no_connect
+		(at 33.02 69.85)
+		(uuid "75dea2ea-f422-4e79-ac61-2334672b8165")
+	)
+	(no_connect
+		(at 33.02 97.79)
+		(uuid "7a773b6c-8b2d-416e-93ff-ba626971652a")
+	)
+	(no_connect
+		(at 142.24 95.25)
+		(uuid "7d956c60-c533-48fa-8a58-eaac6c60d396")
+	)
+	(no_connect
+		(at 142.24 82.55)
+		(uuid "8817a1a2-2985-4e4d-8983-2accd0dc6857")
+	)
+	(no_connect
+		(at 33.02 90.17)
+		(uuid "897dcd18-9757-4745-b802-88f86555018d")
+	)
+	(no_connect
+		(at 33.02 64.77)
+		(uuid "8da1ad00-df72-4e1d-89a0-03021778a63a")
+	)
+	(no_connect
+		(at 33.02 95.25)
+		(uuid "9cfb2487-efa6-42c3-8898-6340c13b1ffb")
+	)
+	(no_connect
+		(at 33.02 54.61)
+		(uuid "9f80edaa-b861-4667-92af-f7c9060ca251")
+	)
+	(no_connect
+		(at 33.02 57.15)
+		(uuid "a61625b4-7759-4795-8091-8408f0828765")
+	)
 	(wire
 		(pts
 			(xy 236.22 63.5) (xy 234.95 63.5)
@@ -6939,7 +7019,7 @@
 		)
 		(uuid "0c120005-666a-4a1b-b0e9-3a348c83ab7c")
 	)
-	(label "ENABLE_VBAT_SW"
+	(label "ENA_VBAT_SW"
 		(at 142.24 87.63 180)
 		(effects
 			(font
@@ -7049,16 +7129,6 @@
 		)
 		(uuid "3a9eeca6-5270-4281-a150-9803bd55e43c")
 	)
-	(label "CE0_SPI0{slash}GPIO08"
-		(at 142.24 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3f921743-d150-4e13-a94b-376ce732563f")
-	)
 	(label "GPIO27{slash}SDIO_DAT3"
 		(at 33.02 100.33 0)
 		(effects
@@ -7068,6 +7138,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b95840b-563b-4517-b43b-32243b6af7a7")
+	)
+	(label "CE0_SPI0{slash}GPIO08"
+		(at 124.46 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "578c3a46-0cdf-4f86-bd71-edddb822c6e7")
 	)
 	(label "ID_SD_I2C0"
 		(at 177.8 64.77 0)
@@ -7229,7 +7309,7 @@
 		)
 		(uuid "f129ca35-e317-4d9e-9eab-1eb2993a007b")
 	)
-	(label "ENABLE_5V_SW"
+	(label "ENA_5V_SW"
 		(at 142.24 80.01 180)
 		(effects
 			(font

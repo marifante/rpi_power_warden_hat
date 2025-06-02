@@ -2220,7 +2220,7 @@
 			)
 			(uuid "5b657a19-1fd3-4e10-ba21-e2462ad6d20c")
 		)
-		(pin "ENABLE_5V_SW" output
+		(pin "ENA_5V_SW" output
 			(at 130.81 115.57 0)
 			(effects
 				(font
@@ -2240,7 +2240,7 @@
 			)
 			(uuid "89961aba-cf0d-4b83-a5f8-0334f749404e")
 		)
-		(pin "ENABLE_VBAT_SW" output
+		(pin "ENA_VBAT_SW" output
 			(at 130.81 66.04 0)
 			(effects
 				(font
