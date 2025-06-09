@@ -8,7 +8,7 @@
 "54-00003","J3","rpi_power_warden_hat:TENSILITY_54-00003","1","TENSILITY"
 "M20-7812045R","J4","rpi_power_warden_hat:rpi_hat_smt","1","Harwin Inc."
 "54-00164","J1,J2","rpi_power_warden_hat:TENSILITY_54-00164","2","TENSILITY"
-"HPC 8040NV-4R7M","L1,L2","rpi_power_warden_hat:L_8040_8x8x4mm","2","TAI-TECH Advanced Electronics Co., Ltd."
+"HPC 6045NV-4R7M","L1,L2","rpi_power_warden_hat:L_6045_6x6x4mm","2","TAI-TECH Advanced Electronics Co., Ltd."
 "DMG2305UX-7","Q1,Q2","rpi_power_warden_hat:SOT-23","2","Diodes Incorporated"
 "ERJ-3EKF1001V","R7","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","1","Panasonic Electronic Components"
 "ERJ-3EKF1600V","R21","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","1","Panasonic Electronic Components"
