@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 17.0,
-          "height": 2.0,
-          "width": 17.0
+          "drill": 1.02,
+          "height": 1.12,
+          "width": 1.12
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,26 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|163497980|84537221|4da9c149-bb5b-4d7f-a59c-2a8799dc4d68|8a3c01a2-a623-4889-9bbf-4f1823279bf8",
+        "solder_mask_bridge|163497980|86487221|6638199f-8ab0-443a-8933-eab1d452e1fe|fcd59d1c-7931-4dae-a960-935218c55095",
+        "solder_mask_bridge|163497980|87137221|fcd59d1c-7931-4dae-a960-935218c55095|0fc68880-a411-4400-97b6-f0349c23346e",
+        "solder_mask_bridge|169297980|84962221|f5834920-ce53-42f8-8482-2ce313a4bf30|22419e81-f2af-4689-874c-56ceeaea967f",
+        "solder_mask_bridge|169297980|85612221|e18cac70-8d60-49f4-a160-fdfc87f04ee7|f5834920-ce53-42f8-8482-2ce313a4bf30",
+        "solder_mask_bridge|169297980|86262221|32f3d92a-2eea-452e-9c6d-65fec8ecf43f|e18cac70-8d60-49f4-a160-fdfc87f04ee7",
+        "solder_mask_bridge|169297980|86912221|268577be-24aa-4f3a-9f41-a77e30e88e3e|32f3d92a-2eea-452e-9c6d-65fec8ecf43f",
+        "solder_mask_bridge|169297980|87562221|180326f1-f5fe-4cf9-ada8-87c604925b18|268577be-24aa-4f3a-9f41-a77e30e88e3e",
+        "solder_mask_bridge|181010779|114974621|3673411b-b573-4b4f-b19d-2bbb35828a06|b5a49e0c-3e8a-431e-8c9a-97d35f71b791",
+        "solder_mask_bridge|181010779|115624621|b5a49e0c-3e8a-431e-8c9a-97d35f71b791|a3b767cc-ce1b-4acd-b60f-47ba73780b12",
+        "solder_mask_bridge|181010779|116274621|a3b767cc-ce1b-4acd-b60f-47ba73780b12|68d0f337-d48b-48e6-9557-6c48ceebdf70",
+        "solder_mask_bridge|181010779|116924621|68d0f337-d48b-48e6-9557-6c48ceebdf70|8cf16996-5b0e-4bf5-84a1-d7b4bb92ec3b",
+        "solder_mask_bridge|181010779|117574621|8cf16996-5b0e-4bf5-84a1-d7b4bb92ec3b|fba0cbb3-aecc-435b-a212-a76d39418b2d",
+        "solder_mask_bridge|186810779|115399621|b2d2b09c-fde2-416f-9837-4d643b403d0b|35699247-bbf8-4666-a50b-598ecea02262",
+        "solder_mask_bridge|186810779|116049621|77df0f1f-4e98-43e1-bd5b-bb8eca240e39|b2d2b09c-fde2-416f-9837-4d643b403d0b",
+        "solder_mask_bridge|186810779|116699621|6b5029bd-9334-4945-9444-be5d49c2bd7d|77df0f1f-4e98-43e1-bd5b-bb8eca240e39",
+        "solder_mask_bridge|186810779|117349621|743d2bb9-d398-41a8-8ff7-331fa25f4a34|6b5029bd-9334-4945-9444-be5d49c2bd7d",
+        "solder_mask_bridge|186810779|117999621|5a55aa06-0dd6-4a92-990b-f7cbe51195e3|743d2bb9-d398-41a8-8ff7-331fa25f4a34"
+      ],
       "meta": {
         "version": 2
       },
@@ -129,7 +148,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.16,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.17,
         "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -214,11 +233,11 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.45,
+          "diameter": 0.55,
           "drill": 0.15
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.6,
           "drill": 0.2
         }
       ],
