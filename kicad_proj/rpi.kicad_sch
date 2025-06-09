@@ -819,15 +819,33 @@
 					(hide yes)
 				)
 			)
-			(property "mpn" "M20-7812045R"
+			(property "mpn_2" "M20-7812045R"
 				(at 18.542 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manufacturer_2" "Harwin Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mpn" "FH-00339"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "manufacturer" "Harwin Inc."
+			(property "manufacturer" "Liansheng"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6951,7 +6969,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "M20-7812045R"
+		(property "mpn" "FH-00339"
 			(at 112.268 50.292 0)
 			(effects
 				(font
@@ -6959,7 +6977,25 @@
 				)
 			)
 		)
-		(property "manufacturer" "Harwin Inc."
+		(property "manufacturer" "Liansheng"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn_2" "M20-7812045R"
+			(at 107.442 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer_2" "Harwin Inc."
 			(at 88.9 76.2 0)
 			(effects
 				(font

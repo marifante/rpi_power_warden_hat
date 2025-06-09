@@ -5807,7 +5807,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "ERJ-3EKF5492V"
+		(property "mpn_2" "ERJ-3EKF5492V"
 			(at 158.75 92.71 0)
 			(effects
 				(font
@@ -5816,7 +5816,25 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturer" "Panasonic Electronic Components"
+		(property "manufacturer_2" "Panasonic Electronic Components"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "0603WAF5492T5E"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 158.75 92.71 0)
 			(effects
 				(font
@@ -5887,13 +5905,39 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "FIXED IND 4.7UH 4A 0.026OHM SMD"
+		(property "Description" "4A 4.7uH ±20% SMD Power Inductors ROHS"
 			(at 121.92 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "manufacturer_2" "TAI-TECH Advanced Electronics Co., Ltd."
+			(at 121.92 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn_2" "HPC 6045NV-4R7M"
+			(at 121.92 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "HPC6045NF-4R7MTH"
+			(at 121.92 86.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "manufacturer" "TAI-TECH Advanced Electronics Co., Ltd."
@@ -5903,14 +5947,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "mpn" "HPC 6045NV-4R7M"
-			(at 121.92 86.614 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"

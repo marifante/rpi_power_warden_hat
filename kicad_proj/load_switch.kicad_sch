@@ -1133,7 +1133,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "ERJ-3EKF4300V"
+		(property "mpn_2" "ERJ-3EKF4300V"
 			(at 181.61 88.9 0)
 			(effects
 				(font
@@ -1142,7 +1142,25 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturer" "Panasonic Electronic Components"
+		(property "manufacturer_2" "Panasonic Electronic Components"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "0603WAF4300T5E"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 181.61 88.9 0)
 			(effects
 				(font
@@ -1589,7 +1607,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "ERJ-3EKF1600V"
+		(property "mpn_2" "ERJ-3EKF1600V"
 			(at 167.64 85.09 0)
 			(effects
 				(font
@@ -1598,8 +1616,26 @@
 				(hide yes)
 			)
 		)
-		(property "manufacturer" "Panasonic Electronic Components"
+		(property "manufacturer_2" "Panasonic Electronic Components"
 			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "AF0603FR-07160RL"
+			(at 167.64 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "YAGEO"
+			(at 167.64 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +2016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61C105MA12-01.pdf"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71C105KE15-01.pdf"
 			(at 96.52 85.09 0)
 			(effects
 				(font
@@ -1989,7 +2025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 1UF 16V X5R 0603"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
 			(at 96.52 85.09 0)
 			(effects
 				(font
@@ -2007,7 +2043,7 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "GRM188R61C105MA12D"
+		(property "mpn" "GRM188R71C105KE15D"
 			(at 96.52 85.09 0)
 			(effects
 				(font
