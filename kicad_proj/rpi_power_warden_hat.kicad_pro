@@ -258,12 +258,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|1181100|850900|a2898888-f67a-4d44-90e6-654988129dd8|00000000-0000-0000-0000-000000000000|/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330|/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330|",
-      "power_pin_not_driven|2489200|965200|7b423029-5033-447e-8c4a-dc131165d4ae|00000000-0000-0000-0000-000000000000|/8692c5de-a943-41e8-8e29-f6c5e99cda34|/8692c5de-a943-41e8-8e29-f6c5e99cda34|",
-      "power_pin_not_driven|2527300|1143000|7b423029-5033-447e-8c4a-dc131165d4ae|00000000-0000-0000-0000-000000000000|/8692c5de-a943-41e8-8e29-f6c5e99cda34|/8692c5de-a943-41e8-8e29-f6c5e99cda34|",
-      "power_pin_not_driven|800100|850900|a2898888-f67a-4d44-90e6-654988129dd8|00000000-0000-0000-0000-000000000000|/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330|/8692c5de-a943-41e8-8e29-f6c5e99cda34/5bbc6f2d-46db-4213-8835-1ada71ba8330|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -517,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "outputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
