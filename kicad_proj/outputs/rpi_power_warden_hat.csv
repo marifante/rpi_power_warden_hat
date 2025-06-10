@@ -24,4 +24,4 @@ TPS22810DBVR,U8,rpi_power_warden_hat:SOT-23-6,1,Texas Instruments,,
 INA260AIPWR,"U1,U2",rpi_power_warden_hat:TSSOP-16_4.4x5mm_P0.65mm,2,Texas Instruments,,
 TPS563200DDCR,"U4,U6",rpi_power_warden_hat:SOT-23-6,2,Texas Instruments,,
 DMMT5401-7-F,"U5,U7",rpi_power_warden_hat:SOT-23-6,2,Diodes Incorporated,,
-SN74AHC1G08DBVR,"U9,U10",rpi_power_warden_hat:SOT-23-5,2,Texas Instruments,SN74AHC1G08DCKR,
+SN74AHC1G08DBVR,"U9,U10",rpi_power_warden_hat:SOT-23-5,2,Texas Instruments,SN74AHC1G08DCKR,x

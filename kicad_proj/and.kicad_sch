@@ -237,7 +237,7 @@
 				)
 			)
 		)
-		(symbol "rpi_power_warden_hat:SN74AHC1G08DBVR"
+		(symbol "rpi_power_warden_hat:SN74AHC1G08DCK"
 			(pin_names
 				(offset 1.016)
 			)
@@ -253,7 +253,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "SN74AHC1G08DBVR"
+			(property "Value" "SN74AHC1G08DCK"
 				(at -1.524 -7.62 0)
 				(effects
 					(font
@@ -262,7 +262,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "rpi_power_warden_hat:SOT-23-5"
+			(property "Footprint" "rpi_power_warden_hat:SOT-353"
 				(at 1.778 22.606 0)
 				(effects
 					(font
@@ -290,7 +290,7 @@
 					(hide yes)
 				)
 			)
-			(property "mpn" "SN74AHC1G08DBVR"
+			(property "mpn" "SN74AHC1G08DCK"
 				(at 1.778 22.606 0)
 				(effects
 					(font
@@ -308,7 +308,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SN74AHC1G08DBVR_0_0"
+			(symbol "SN74AHC1G08DCK_0_0"
 				(pin input line
 					(at -12.7 2.54 0)
 					(length 5.08)
@@ -400,7 +400,7 @@
 					)
 				)
 			)
-			(symbol "SN74AHC1G08DBVR_0_1"
+			(symbol "SN74AHC1G08DCK_0_1"
 				(polyline
 					(pts
 						(xy 0.0221 -5.08) (xy -7.5979 -5.08) (xy -7.5979 5.08) (xy 0.0221 5.08)
@@ -667,6 +667,106 @@
 		)
 	)
 	(symbol
+		(lib_id "rpi_power_warden_hat:SN74AHC1G08DCK")
+		(at 151.13 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d5f4b4b-e32c-49bf-b5b6-9f916558b726")
+		(property "Reference" "U9"
+			(at 166.37 93.0908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74AHC1G08DCK"
+			(at 166.37 95.6308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rpi_power_warden_hat:SOT-353"
+			(at 152.908 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g08.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1748629817144&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74ahc1g08"
+			(at 155.956 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC GATE AND 1CH 2-INP SOT23-5"
+			(at 154.178 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "SN74AHC1G08DCK"
+			(at 152.908 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "Texas Instruments"
+			(at 152.908 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6cd77d36-a001-4c73-ad77-1636ea3345d0")
+		)
+		(pin "4"
+			(uuid "399ee1d6-f87a-4972-b05d-321da0f0c7f3")
+		)
+		(pin "2"
+			(uuid "5a585e0b-ab23-4757-a1c9-66bb8baaee7a")
+		)
+		(pin "1"
+			(uuid "eca64b70-800e-4a00-ba25-7aff4740e8e6")
+		)
+		(pin "3"
+			(uuid "e36e0ebe-1ff9-4ced-ba90-490fc7d43121")
+		)
+		(instances
+			(project ""
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/67c50b5c-a842-43c6-be7c-97015e7e2432"
+					(reference "U12")
+					(unit 1)
+				)
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/fdee896d-a6fa-4854-a7d2-28092c85ff44"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 148.59 109.22 0)
 		(unit 1)
@@ -820,106 +920,6 @@
 				)
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/fdee896d-a6fa-4854-a7d2-28092c85ff44"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rpi_power_warden_hat:SN74AHC1G08DBVR")
-		(at 151.13 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4282031-4fdb-4bea-8220-0e97adaf88d8")
-		(property "Reference" "U10"
-			(at 166.37 93.0908 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SN74AHC1G08DBVR"
-			(at 166.37 95.6308 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rpi_power_warden_hat:SOT-23-5"
-			(at 152.908 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahc1g08.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1748629817144&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fsn74ahc1g08"
-			(at 155.956 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC GATE AND 1CH 2-INP SOT23-5"
-			(at 154.178 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" "SN74AHC1G08DBVR"
-			(at 152.908 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "Texas Instruments"
-			(at 152.908 76.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "c22b5ef3-0c16-4e14-a4c8-55d6943d1fe2")
-		)
-		(pin "4"
-			(uuid "1aba0491-71a0-407d-b361-52e5246acea1")
-		)
-		(pin "2"
-			(uuid "f8c60104-5896-4644-8166-1bd6e9f2beee")
-		)
-		(pin "3"
-			(uuid "2da8cd3f-3acb-4977-b536-d882e4703d7c")
-		)
-		(pin "1"
-			(uuid "4ecd6a41-b5f8-4b1f-a1ad-fc1bed11e651")
-		)
-		(instances
-			(project "rpi_power_warden_hat"
-				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/67c50b5c-a842-43c6-be7c-97015e7e2432"
-					(reference "U10")
-					(unit 1)
-				)
-				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34/fdee896d-a6fa-4854-a7d2-28092c85ff44"
-					(reference "U9")
 					(unit 1)
 				)
 			)
