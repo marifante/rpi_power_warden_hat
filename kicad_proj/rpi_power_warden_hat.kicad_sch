@@ -107,6 +107,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -197,201 +318,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "rpi_power_warden_hat:54-00003"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -7.62 10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "54-00003"
-				(at -7.62 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "rpi_power_warden_hat:TENSILITY_54-00003"
-				(at -1.016 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00003.pdf"
-				(at -1.016 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "CONN RCPT TYPEA 4POS SMD R/A"
-				(at -1.016 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mpn" "54-00003"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "manufacturer" "TENSILITY"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "54-00003_0_0"
-				(rectangle
-					(start -7.62 -10.16)
-					(end 7.62 10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "SHIELD__1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "SH2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -728,12 +654,233 @@
 				)
 			)
 		)
+		(symbol "rpi_power_warden_hat:SHOU-HAN-TYPE-C-6P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TYPE-C 6P"
+				(at -7.62 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "rpi_power_warden_hat:SHOU_HAN_TYPE-C-6P"
+				(at -1.016 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2504101957_SHOU-HAN-TYPE-C-6P_C456012.pdf"
+				(at -1.016 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN RCPT TYPEA 4POS SMD R/A"
+				(at -1.016 14.732 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mpn" "TYPE-C 6P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "manufacturer" "SHOU HAN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "SHOU-HAN-TYPE-C-6P_0_0"
+				(rectangle
+					(start -7.62 10.922)
+					(end 0 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SHOU-HAN-TYPE-C-6P_1_0"
+				(pin power_in line
+					(at -12.7 -1.27 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 1.27 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 6.35 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -3.81 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 3.81 0)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 8.89 0)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 133.35 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03a74bed-263b-4cd1-9264-30b881809fbd")
+	)
+	(junction
+		(at 265.43 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09b94571-4bc6-4ae3-8f5f-4e4eceebad71")
 	)
 	(junction
 		(at 217.17 66.04)
@@ -752,6 +899,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33de81c9-9db3-43f5-bb77-e9f58cbd2cbf")
+	)
+	(junction
+		(at 250.19 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40d3503e-306d-4e85-a807-c88d74d8c9fa")
+	)
+	(junction
+		(at 250.19 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b04bef0-42ce-4816-af63-9e51127b338f")
 	)
 	(junction
 		(at 54.61 58.42)
@@ -778,30 +937,22 @@
 		(uuid "ace05bb8-c07f-4f40-aa6d-d1cae59f7f54")
 	)
 	(junction
-		(at 250.19 129.54)
+		(at 265.43 127)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c392850f-c3ed-4c97-9ad6-446e83cc0a73")
+		(uuid "cfd93f37-27d1-4d62-998a-b86900f3e9f5")
+	)
+	(junction
+		(at 250.19 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d04eb941-62c8-4d3e-aec6-3186d567c82d")
 	)
 	(junction
 		(at 35.56 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7fbd908-71c7-4a99-9d18-85361e77eeec")
-	)
-	(junction
-		(at 250.19 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fed72a28-a79a-4bb8-b8c4-7b4b0db4c178")
-	)
-	(no_connect
-		(at 252.73 116.84)
-		(uuid "a59082f6-add8-429e-aa19-ad74c55209cc")
-	)
-	(no_connect
-		(at 252.73 119.38)
-		(uuid "a881b3a5-75d2-43bc-accf-217533bcde77")
 	)
 	(wire
 		(pts
@@ -825,6 +976,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 121.92) (xy 266.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1814d8e7-7ca7-4e40-81e3-e60543ad4ab3")
+	)
+	(wire
+		(pts
 			(xy 217.17 66.04) (xy 219.71 66.04)
 		)
 		(stroke
@@ -835,13 +996,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 129.54) (xy 250.19 129.54)
+			(xy 250.19 114.3) (xy 250.19 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2419f759-f53d-47ef-93ce-3b54f8454d85")
+		(uuid "1d8a058b-2f34-4872-8a4d-1a6eccc384b4")
 	)
 	(wire
 		(pts
@@ -882,16 +1043,6 @@
 			(type default)
 		)
 		(uuid "3c7521c3-3b82-4900-8b2b-14e9d727c45f")
-	)
-	(wire
-		(pts
-			(xy 250.19 129.54) (xy 250.19 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f766ede-29d7-4f76-a6d0-345bb7a05167")
 	)
 	(wire
 		(pts
@@ -945,7 +1096,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 114.3) (xy 252.73 114.3)
+			(xy 245.11 114.3) (xy 250.19 114.3)
 		)
 		(stroke
 			(width 0)
@@ -972,6 +1123,16 @@
 			(type default)
 		)
 		(uuid "53d6c4cb-edd5-425f-bd2d-32d51f6e83dc")
+	)
+	(wire
+		(pts
+			(xy 261.62 119.38) (xy 266.7 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a367993-0c39-42c6-97a4-090092589205")
 	)
 	(wire
 		(pts
@@ -1005,16 +1166,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 121.92) (xy 250.19 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a3a6bd-b318-44fb-99bd-6d2e0a728bd5")
-	)
-	(wire
-		(pts
 			(xy 54.61 55.88) (xy 54.61 58.42)
 		)
 		(stroke
@@ -1035,13 +1186,23 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 127) (xy 250.19 129.54)
+			(xy 265.43 127) (xy 265.43 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "68fd5667-64d3-475a-b82c-160d3301ab49")
+	)
+	(wire
+		(pts
+			(xy 250.19 116.84) (xy 250.19 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c28af6e-6c6f-489f-83fe-a2cfb79b5eb4")
 	)
 	(wire
 		(pts
@@ -1072,6 +1233,16 @@
 			(type default)
 		)
 		(uuid "845d000e-bf5b-4695-9689-9a4d6e915bb9")
+	)
+	(wire
+		(pts
+			(xy 250.19 121.92) (xy 254 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0f11b2-adf6-4fc3-aa89-b5133fa2852f")
 	)
 	(wire
 		(pts
@@ -1115,13 +1286,13 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 121.92) (xy 252.73 121.92)
+			(xy 265.43 124.46) (xy 266.7 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9786dfc8-7310-4b47-ba12-136df2450533")
+		(uuid "a3105624-e873-40e5-940b-e5caae8b77c1")
 	)
 	(wire
 		(pts
@@ -1152,6 +1323,16 @@
 			(type default)
 		)
 		(uuid "aa1375c8-ae24-4ae5-97ff-70648470d679")
+	)
+	(wire
+		(pts
+			(xy 250.19 119.38) (xy 250.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5e65b2-ac54-454f-b68d-8d5485ebf7d5")
 	)
 	(wire
 		(pts
@@ -1195,7 +1376,17 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 127) (xy 250.19 127)
+			(xy 265.43 130.81) (xy 266.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d019ed-3601-4307-a1c2-5760da4500e2")
+	)
+	(wire
+		(pts
+			(xy 266.7 127) (xy 265.43 127)
 		)
 		(stroke
 			(width 0)
@@ -1285,6 +1476,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 116.84) (xy 266.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90a8008-54cf-4f30-acd8-9c2d0b8592d8")
+	)
+	(wire
+		(pts
 			(xy 130.81 115.57) (xy 140.97 115.57)
 		)
 		(stroke
@@ -1315,6 +1516,26 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 130.81) (xy 265.43 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d7e028-e61c-4e4b-9ddf-4fee9f58136c")
+	)
+	(wire
+		(pts
+			(xy 250.19 114.3) (xy 266.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72049ac-fb68-4a12-a616-5e2e87f477be")
+	)
+	(wire
+		(pts
 			(xy 41.91 58.42) (xy 54.61 58.42)
 		)
 		(stroke
@@ -1322,6 +1543,26 @@
 			(type default)
 		)
 		(uuid "e23f70ba-bb53-4bc7-a5e1-698bfcf78455")
+	)
+	(wire
+		(pts
+			(xy 250.19 119.38) (xy 254 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbae3b8-1518-475c-ad20-4ed5b421c8c4")
+	)
+	(wire
+		(pts
+			(xy 265.43 124.46) (xy 265.43 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7604d7-c9e6-4403-9467-2f80cf13e019")
 	)
 	(wire
 		(pts
@@ -1647,44 +1888,32 @@
 		)
 	)
 	(symbol
-		(lib_id "rpi_power_warden_hat:54-00003")
-		(at 265.43 121.92 0)
+		(lib_id "Device:R")
+		(at 257.81 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "55ba8731-bf09-4c57-a55d-8e720d136300")
-		(property "Reference" "J3"
-			(at 263.906 109.982 0)
+		(uuid "6c9f5a6d-84bd-4293-a1e7-a73f4dfb72d1")
+		(property "Reference" "R24"
+			(at 252.73 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "54-00003"
-			(at 260.096 133.858 0)
+		(property "Value" "5.1 kΩ"
+			(at 263.906 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "rpi_power_warden_hat:TENSILITY_54-00003"
-			(at 264.414 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00003.pdf"
-			(at 264.414 105.41 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 257.81 120.142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,8 +1921,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CONN RCPT TYPEA 4POS SMD R/A"
-			(at 264.414 105.41 0)
+		(property "Datasheet" "~"
+			(at 257.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,48 +1930,43 @@
 				(hide yes)
 			)
 		)
-		(property "mpn" "54-00003"
-			(at 265.43 121.92 0)
+		(property "Description" "RES SMD 5K1 OHM 1% 1/10W"
+			(at 257.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "manufacturer" "TENSILITY"
-			(at 265.43 121.92 0)
+		(property "mpn" "FRC0603F5101TS"
+			(at 257.81 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "FOJAN"
+			(at 257.81 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "7b423029-5033-447e-8c4a-dc131165d4ae")
-		)
-		(pin "4"
-			(uuid "0643e80d-4590-452f-b28b-404b2ca0fe36")
-		)
-		(pin "3"
-			(uuid "787352b1-8113-4836-b273-e7da20013431")
-		)
-		(pin "SH1"
-			(uuid "1603e871-e343-4a42-bd14-34bc64e4c7b5")
-		)
-		(pin "SH2"
-			(uuid "e83b1bdb-683b-4a1a-bb56-6387a0a196ad")
+			(uuid "4b414be3-4f2d-4e4c-b7bc-967d6e488330")
 		)
 		(pin "2"
-			(uuid "d410705e-4c00-4047-9e16-e19734b65339")
+			(uuid "25998455-7937-41bc-8620-81ac29be8d66")
 		)
 		(instances
-			(project ""
+			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
-					(reference "J3")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -1911,6 +2135,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 257.81 119.38 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b30f0213-0c8e-4cd8-b1a0-402cb33efd62")
+		(property "Reference" "R23"
+			(at 252.73 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1 kΩ"
+			(at 263.906 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 257.81 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 5K1 OHM 1% 1/10W"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "FRC0603F5101TS"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "FOJAN"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7682cbe2-319f-462c-a180-6a06d745518f")
+		)
+		(pin "2"
+			(uuid "ccd7dda6-e01b-469f-8380-f8a0f8076002")
+		)
+		(instances
+			(project "rpi_power_warden_hat"
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 67.31 0)
 		(mirror y)
@@ -2073,8 +2382,113 @@
 		)
 	)
 	(symbol
+		(lib_id "rpi_power_warden_hat:SHOU-HAN-TYPE-C-6P")
+		(at 279.4 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f78f0c68-4f2b-456a-87de-f1ddf36993c6")
+		(property "Reference" "J3"
+			(at 274.32 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TYPE-C 6P"
+			(at 270.51 135.128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "rpi_power_warden_hat:SHOU_HAN_TYPE-C-6P"
+			(at 278.384 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2504101957_SHOU-HAN-TYPE-C-6P_C456012.pdf"
+			(at 278.384 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN RCPT TYPEA 4POS SMD R/A"
+			(at 278.384 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "TYPE-C 6P"
+			(at 279.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "SHOU HAN"
+			(at 279.4 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "B12"
+			(uuid "b2be1ac4-f744-4e24-b050-4f37f275abcb")
+		)
+		(pin "B5"
+			(uuid "e905d068-3c2e-47dc-a324-73061603188e")
+		)
+		(pin "SH"
+			(uuid "8278bc39-6c00-45f7-81ca-ba8ab8975c98")
+		)
+		(pin "B9"
+			(uuid "81c2c7e4-b6ee-4b34-8cb6-c98a87a516b5")
+		)
+		(pin "A9"
+			(uuid "5aba1d7a-e5d0-4be1-8e62-57d1803a2f50")
+		)
+		(pin "A12"
+			(uuid "943b3bc2-75a1-4cb1-b4eb-8af934667265")
+		)
+		(pin "A5"
+			(uuid "325bbc55-1437-4e9f-a3f5-f619836bc547")
+		)
+		(instances
+			(project ""
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 250.19 130.81 0)
+		(at 265.43 133.35 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2084,7 +2498,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa2aadbc-57ab-4386-8daf-684704d2b80b")
 		(property "Reference" "#PWR3"
-			(at 250.19 137.16 0)
+			(at 265.43 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2507,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 250.19 135.89 0)
+			(at 265.43 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 130.81 0)
+			(at 265.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 130.81 0)
+			(at 265.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2533,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 250.19 130.81 0)
+			(at 265.43 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
