@@ -324,7 +324,7 @@
 				)
 			)
 		)
-		(symbol "rpi_power_warden_hat:54-00164"
+		(symbol "rpi_power_warden_hat:DC-005-5A-2.5-SMT"
 			(pin_names
 				(offset 1.016)
 			)
@@ -340,7 +340,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "54-00164"
+			(property "Value" "DC-005-5A-2.5-SMT"
 				(at -7.62 -5.08 0)
 				(effects
 					(font
@@ -349,7 +349,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "rpi_power_warden_hat:TENSILITY_54-00164"
+			(property "Footprint" "rpi_power_warden_hat:XKB_DC-005-5A-2.5-SMT"
 				(at 3.048 12.954 0)
 				(effects
 					(font
@@ -359,7 +359,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00164.pdf"
+			(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2404011025_XKB-Connection-DC-005-5A-2-5-SMT_C319133.pdf"
 				(at 3.048 12.954 0)
 				(effects
 					(font
@@ -368,7 +368,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CONN JACK R/A SMT 5.5X2.1MM"
+			(property "Description" "Surface Mount, Right Angle DC Power Jack -20℃~+70℃ 2.5mm 6.5mm 5A 24V SMD DC Power Connectors ROHS"
 				(at 0.762 10.414 0)
 				(effects
 					(font
@@ -377,7 +377,7 @@
 					(hide yes)
 				)
 			)
-			(property "mpn" "54-00164"
+			(property "mpn" "DC-005-5A-2.5-SMT"
 				(at -1.016 8.128 0)
 				(effects
 					(font
@@ -387,7 +387,7 @@
 					(hide yes)
 				)
 			)
-			(property "manufacturer" "TENSILITY"
+			(property "manufacturer" "XKB Connection"
 				(at 1.016 8.636 0)
 				(effects
 					(font
@@ -397,7 +397,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "54-00164_0_0"
+			(symbol "DC-005-5A-2.5-SMT_0_0"
 				(arc
 					(start -8.255 3.81)
 					(mid -9.5194 2.54)
@@ -578,6 +578,8 @@
 						(type outline)
 					)
 				)
+			)
+			(symbol "DC-005-5A-2.5-SMT_1_0"
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 5.08)
@@ -588,7 +590,7 @@
 							)
 						)
 					)
-					(number "A1"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -606,7 +608,7 @@
 							)
 						)
 					)
-					(number "B"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -624,7 +626,7 @@
 							)
 						)
 					)
-					(number "C"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -632,8 +634,6 @@
 						)
 					)
 				)
-			)
-			(symbol "54-00164_1_0"
 				(pin passive line
 					(at 5.08 2.54 180)
 					(length 5.08) hide
@@ -1888,6 +1888,103 @@
 		)
 	)
 	(symbol
+		(lib_id "rpi_power_warden_hat:DC-005-5A-2.5-SMT")
+		(at 261.62 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66bb695a-2313-4b84-a7cb-0467726cfa80")
+		(property "Reference" "J2"
+			(at 260.35 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DC-005-5A-2.5-SMT"
+			(at 258.318 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rpi_power_warden_hat:XKB_DC-005-5A-2.5-SMT"
+			(at 258.572 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2404011025_XKB-Connection-DC-005-5A-2-5-SMT_C319133.pdf"
+			(at 258.572 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount, Right Angle DC Power Jack -20℃~+70℃ 2.5mm 6.5mm 5A 24V SMD DC Power Connectors ROHS"
+			(at 260.858 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "DC-005-5A-2.5-SMT"
+			(at 262.636 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "XKB Connection"
+			(at 260.604 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40907904-60cd-48e5-9748-cb8ccdf1e68e")
+		)
+		(pin "A2"
+			(uuid "13289098-b17b-4ca3-bba9-e64fb19775b5")
+		)
+		(pin "3"
+			(uuid "c20ef06d-21b1-4f50-a050-eb64c824ba68")
+		)
+		(pin "1"
+			(uuid "be5e7694-f8ae-4839-bab2-96508c02c233")
+		)
+		(instances
+			(project ""
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 257.81 121.92 270)
 		(unit 1)
@@ -2040,101 +2137,6 @@
 		)
 	)
 	(symbol
-		(lib_id "rpi_power_warden_hat:54-00164")
-		(at 261.62 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aeb31be1-79dd-4fc7-afdf-b3aa3e649cf9")
-		(property "Reference" "J2"
-			(at 266.3797 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "54-00164"
-			(at 266.3797 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rpi_power_warden_hat:TENSILITY_54-00164"
-			(at 258.572 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00164.pdf"
-			(at 258.572 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN JACK R/A SMT 5.5X2.1MM"
-			(at 260.858 50.546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" "54-00164"
-			(at 262.636 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "TENSILITY"
-			(at 260.604 52.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "9f451cc4-c0e2-41b8-8e60-a4ee829f6fe6")
-		)
-		(pin "B"
-			(uuid "7e1aff7b-7b98-4a9c-b2ba-9d36396f9831")
-		)
-		(pin "C"
-			(uuid "db84a362-fd42-48c2-8f5b-6847be51fffe")
-		)
-		(pin "A1"
-			(uuid "c44a43d6-17bc-4004-beed-4edd5dd84762")
-		)
-		(instances
-			(project "rpi_power_warden_hat"
-				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 257.81 119.38 270)
 		(unit 1)
@@ -2220,6 +2222,102 @@
 		)
 	)
 	(symbol
+		(lib_id "rpi_power_warden_hat:DC-005-5A-2.5-SMT")
+		(at 27.94 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb1e57e2-f2ea-4831-b69f-3f4cece57a4e")
+		(property "Reference" "J1"
+			(at 29.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DC-005-5A-2.5-SMT"
+			(at 34.036 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "rpi_power_warden_hat:XKB_DC-005-5A-2.5-SMT"
+			(at 30.988 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2404011025_XKB-Connection-DC-005-5A-2-5-SMT_C319133.pdf"
+			(at 30.988 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount, Right Angle DC Power Jack -20℃~+70℃ 2.5mm 6.5mm 5A 24V SMD DC Power Connectors ROHS"
+			(at 28.702 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mpn" "DC-005-5A-2.5-SMT"
+			(at 26.924 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "manufacturer" "XKB Connection"
+			(at 28.956 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9ef9723-6925-4133-a573-6ed84ffe3dfe")
+		)
+		(pin "A2"
+			(uuid "e34bae66-7fb0-44e2-83d8-e7e90ff50f83")
+		)
+		(pin "3"
+			(uuid "e461b8ed-53a3-4e2e-9567-5ff465e9dc98")
+		)
+		(pin "1"
+			(uuid "efbd3428-043f-4ee9-a250-30c59aa70bf8")
+		)
+		(instances
+			(project "rpi_power_warden_hat"
+				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 67.31 0)
 		(mirror y)
@@ -2281,101 +2379,6 @@
 			(project "rpi_power_warden_hat"
 				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
 					(reference "#PWR4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "rpi_power_warden_hat:54-00164")
-		(at 27.94 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c996309d-2eed-4382-b16a-9f7202c7ecf2")
-		(property "Reference" "J1"
-			(at 23.1803 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "54-00164"
-			(at 23.1803 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "rpi_power_warden_hat:TENSILITY_54-00164"
-			(at 30.988 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00164.pdf"
-			(at 30.988 77.216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CONN JACK R/A SMT 5.5X2.1MM"
-			(at 28.702 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mpn" "54-00164"
-			(at 26.924 82.042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "manufacturer" "TENSILITY"
-			(at 28.956 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "A2"
-			(uuid "7af98174-fd0d-453e-9957-4916fc308588")
-		)
-		(pin "B"
-			(uuid "d06a7ece-a56f-4b70-9dd7-584d1a9cba53")
-		)
-		(pin "C"
-			(uuid "8e0c1817-3b29-4522-bf63-8ae9c0d93429")
-		)
-		(pin "A1"
-			(uuid "73ae96b2-860b-4afb-85a4-0133461bb2d7")
-		)
-		(instances
-			(project "rpi_power_warden_hat"
-				(path "/8692c5de-a943-41e8-8e29-f6c5e99cda34"
-					(reference "J1")
 					(unit 1)
 				)
 			)
