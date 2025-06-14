@@ -583,7 +583,7 @@
       "plot": "outputs/",
       "pos_files": "outputs/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "outputs/rpi_power_warden_hat.step",
       "svg": "",
       "vrml": ""
     },
@@ -664,6 +664,18 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mpn_2",
+          "name": "mpn_2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacturer_2",
+          "name": "manufacturer_2",
           "show": false
         }
       ],

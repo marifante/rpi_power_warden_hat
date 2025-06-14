@@ -1,0 +1,28 @@
+Comment,Designator,Footprint,Qty,manufacturer
+GRM188R71C105KE15D,C14,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,Murata Electronics
+GCM188R72A472KA37D,C15,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1,Murata Electronics
+CC0603KRX5R8BB104,"C1,C2,C3,C6,C11,C16,C17",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,7,YAGEO
+GRM21BR61E226ME44L,"C4,C5,C7,C8,C9,C10,C12,C13",Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,8,Murata Electronics
+LTST-C193TBKT-5A,D3,LED_SMD:LED_0603_1608Metric,1,Lite-On Inc.
+LTST-C193KRKT-5A,"D1,D2",LED_SMD:LED_0603_1608Metric,2,Lite-On Inc.
+TYPE-C 6P,J3,rpi_power_warden_hat:SHOU_HAN_TYPE-C-6P,1,SHOU HAN
+FH-00339,J4,rpi_power_warden_hat:rpi_hat_smt,1,Liansheng
+DC-005-5A-2.5-SMT,"J1,J2",rpi_power_warden_hat:XKB_DC-005-5A-2.5-SMT,2,XKB Connection
+HPC6045NF-4R7MTH,"L1,L2",rpi_power_warden_hat:L_6045_6x6x4mm,2,"TAI-TECH Advanced Electronics Co., Ltd."
+DMG2305UX-7,"Q1,Q2",rpi_power_warden_hat:SOT-23,2,Diodes Incorporated
+ERJ-3EKF1001V,R7,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,Panasonic Electronic Components
+AF0603FR-07160RL,R21,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,YAGEO
+0603WAF4300T5E,R22,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1,UNI-ROYAL(Uniroyal Elec)
+ERJ-3EKF1002V,"R1,R2,R10,R11,R16,R17",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,6,Panasonic Electronic Components
+ERJ-3EKF4702V,"R12,R18",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,Panasonic Electronic Components
+ERJ-3EKF5600V,"R13,R19",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,Panasonic Electronic Components
+FRC0603F5101TS,"R23,R24",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,FOJAN
+ERJ-3EKF3901V,"R5,R6",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,Panasonic Electronic Components
+ERJ-3GEY0R00V,"R8,R14,R20",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,3,Panasonic Electronic Components
+0603WAF5492T5E,"R9,R15",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2,UNI-ROYAL(Uniroyal Elec)
+CAT24C32WI-GT3,U3,rpi_power_warden_hat:SOIC-8,1,ON Semiconductor
+TPS22810DBVR,U8,rpi_power_warden_hat:SOT-23-6,1,Texas Instruments
+INA260AIPWR,"U1,U2",rpi_power_warden_hat:TSSOP-16_4.4x5mm_P0.65mm,2,Texas Instruments
+TPS563200DDCR,"U4,U6",rpi_power_warden_hat:SOT-23-6,2,Texas Instruments
+DMMT5401-7-F,"U5,U7",rpi_power_warden_hat:SOT-23-6,2,Diodes Incorporated
+SN74AHC1G08DCK,"U9,U12",rpi_power_warden_hat:SOT-353,2,Texas Instruments
